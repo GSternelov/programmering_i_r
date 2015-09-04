@@ -11,3 +11,4 @@ blirDetTacosImorgon <- function(){
 }
 blirDetTacosImorgon()
 
+friday <- blirDetTacosImorgon()
