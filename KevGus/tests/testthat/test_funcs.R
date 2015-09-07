@@ -4,5 +4,4 @@ test_that("e and t are numeric values",{
 })
 
 
-a <- c(100,1000)
-expect_output(euclidian(a), 100)
+expect_output(euclidian(100,1000), 100)
