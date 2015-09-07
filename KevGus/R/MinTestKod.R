@@ -1,20 +1,18 @@
-fungerar <- c(1:100, c(-1, -1,-2))
-# Här tog jag bort
-
-# Här skriver jag lite till
-
-# Sen lägger jag till
-blirDetTacosImorgon <- function(){
-  if (rnorm(1,sd=1, mean=0) > 0){
-    print("Det blir tacos imorgon!")
-  } else print("Nej fan det blir det inte!")
+#' Take two numbers.
+#' 
+#' @param e A number.
+#' @param t A number.
+#' @return The largest number that divides both of them without leaving a remainder.
+#' @examples
+#' euclidian(100, 1000)
+euclidian <- function(e,t){
+  stopifnot(is.numeric(e), is.numeric(t))
+  q <- 0
+  while(t != 0){
+    q <- t
+    t <- e %% t
+    e <- q
+  }
+  return(e)
 }
-blirDetTacosImorgon()
-
-friday <- blirDetTacosImorgon()
-
-saturday<- blirDetTacosImorgon() 
-
-maybe_tacos <- blirDetTacosImorgon()
-
 
