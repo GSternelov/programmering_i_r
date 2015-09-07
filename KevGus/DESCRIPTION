@@ -7,7 +7,8 @@ Author: as.person(c(
     "Gustav Sternelöv <gusst214@student.liu.se> [aut, cre]", 
     "Kevin Neville <kevne078@student.liu.se> [aut, cre]"
   ))
-Maintainer: Who to complain to <yourfault@somewhere.net>
+Maintainer: kevne078@student.liu.se
 Description: This packages is part of a course in advanced R programming. It contains one
 function that calculates the euclidian distance and one for the Dijsktra algorithm. 
 License: What license is it under?
+
