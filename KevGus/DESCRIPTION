@@ -3,8 +3,9 @@ Type: Package
 Title: Euclidian and Dijsktra
 Version: 1.0.0
 Date: 2015-09-07
-Author: 
-Maintainer: kevne078@student.liu.se
+Authors$R: person("Gustav", "Sternelöv",
+email="gusst214@student.liu.se", role=c("aut","cre")) 
+Maintainer: "kevne078@student.liu.se"
 Description: This packages is part of a course in advanced R programming. It contains one
 function that calculates the euclidian distance and one for the Dijsktra algorithm. 
 License: What license is it under?
