@@ -16,3 +16,17 @@ euclidian <- function(e,t){
   return(e)
 }
 
+
+#' Data frame with nodes
+#' 
+#' Dataset containing the different nodes for Djikstra function.
+#' 
+#' @format A data frame with 18 rows and 3 columns:
+#' \describe{
+#'    \item{v1}{current node}
+#'    \item{v2}{connecting node}
+#'    \item{w}{distance between nodes}
+#'    }
+#' @source \url{https://en.wikipedia.org/}
+"wiki_graph"
+

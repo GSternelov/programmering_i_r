@@ -3,7 +3,7 @@ Type: Package
 Title: Euclidian and Dijsktra
 Version: 1.0.0
 Date: 2015-09-07
-Authors@R:as.person(c(
+Authors@R: as.person(c(
     "Gustav Sternelöv <gusst214@student.liu.se> [aut, cre]", 
     "Kevin Neville <kevne078@student.liu.se> [aut]"
   ))
@@ -12,3 +12,4 @@ Description: This packages is part of a course in advanced R programming.
   and one for the Dijsktra algorithm. 
 License: What license is it under?
 LazyData: true
+Suggests: testthat
