@@ -1,9 +1,13 @@
 Package: KevGus
 Type: Package
-Title: What the package does (short line)
-Version: 1.0
+Title: Euclidian and Dijsktra
+Version: 1.0.0
 Date: 2015-09-07
-Author: Who wrote it
+Author: as.person(c(
+    "Gustav Sternelöv <gusst214@student.liu.se> [aut, cre]", 
+    "Kevin Neville <kevne078@student.liu.se> [aut, cre]"
+  ))
 Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
+Description: This packages is part of a course in advanced R programming. It contains one
+function that calculates the euclidian distance and one for the Dijsktra algorithm. 
 License: What license is it under?
