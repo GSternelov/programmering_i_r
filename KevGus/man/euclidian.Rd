@@ -2,7 +2,10 @@
 % Please edit documentation in R/MinTestKod.R
 \name{euclidian}
 \alias{euclidian}
-\title{Take two numbers.}
+\title{Euclidian algorithm}
+\source{
+\url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
+}
 \usage{
 euclidian(e, t)
 }
@@ -15,7 +18,7 @@ euclidian(e, t)
 The largest number that divides both of them without leaving a remainder.
 }
 \description{
-Take two numbers.
+Function that takes two numbers and calcualtes the greatest common divisor.
 }
 \examples{
 euclidian(100, 1000)

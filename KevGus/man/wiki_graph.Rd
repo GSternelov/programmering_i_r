@@ -11,7 +11,7 @@
    \item{w}{distance between nodes}
    }}
 \source{
-\url{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}
+\url{https://en.wikipedia.org/}
 }
 \usage{
 wiki_graph
